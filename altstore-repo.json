@@ -1,289 +1,229 @@
 {
-    "name": "DanielTheManiel's Repo",
-    "subtitle": "i make things",
-    "iconURL": "https://avatars.githubusercontent.com/u/179581632",
-    "website": "https://github.com/Dan1elTheMan1el/IOS-Repo",
-    "tintColor": "#de1fe5",
+    "name": "My Repo",
+    "subtitle": "",
+    "iconURL": "",
+    "website": "https://github.com/nicolaswl/ios-repo",
+    "tintColor": "",
     "apps": [
         {
-            "name": "LiveRedirect",
-            "bundleIdentifier": "danielthemaniel.DynamicRedirect",
-            "developerName": "DanielTheManiel",
-            "subtitle": "Redirect any URLs to LiveContainer! (iOS <26)",
-            "localizedDescription": "Open matching webpages in LiveContainer from Safari on iOS using a lightweight Safari Web Extension.\n\nWhat it does:\n\u2022 Lets you maintain a list of URL or domain patterns (e.g., discord.com/invite, youtube.com).\n\u2022 When a visited page matches, the content script encodes the full URL as Base64 and redirects to: livecontainer://open-web-page?url=<base64>\n\u2022 Manage patterns directly in the extension popup (add, delete, import, export).\n\nUsing the extension:\nImportant: Sideload with app extensions enabled to use extension!\n\u2022 Add a pattern such as discord.com/invite or just github.com.\n\u2022 Visit a matching page; you should be redirected to the LiveContainer URL.\n\u2022 Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/refs/heads/main/DynamicRedirect%20Extension/images/icon-256.png",
-            "tintColor": "#04a49c",
-            "category": "utilities",
-            "screenshots": [
-                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector1.png",
-                "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/screenshots/LiveRedirector2.png"
-            ],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-08-10T15:14:00-07:00",
-                    "localizedDescription": "Manual Redirect Option",
-                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.1/LiveRedirect1.1.ipa",
-                    "size": 643000
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-08-08T18:30:00-07:00",
-                    "localizedDescription": "Initial Release",
-                    "downloadURL": "https://github.com/Dan1elTheMan1el/LiveRedirect/releases/download/1.0/LiveRedirect1.0.ipa",
-                    "size": 652000
-                }
-            ]
-        },
-        {
-            "name": "Pocket Poster",
-            "bundleIdentifier": "com.lemin.Pocket-Poster",
-            "developerName": "leminlimez",
-            "subtitle": "Custom PosterBoard Wallpapers for iOS 17+",
-            "localizedDescription": "# Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\nCommunity-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.\n\n## Getting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\nDownload [Nugget](https://github.com/leminlimez/Nugget) on your computer and plug in your phone. Then, navigate to the `Settings` page and click the `Pocket Poster Helper` button. Inside Pocket Poster, click the `Detect` button inside of settings.\n\n## Credits\n- Translations crowdsourced using [POEditor][POEditorJoin]. Thank you everyone who assisted in the translation effort!\n- [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard\n- [dootskyre][dootskyreX] for the fallback shortcut\n- [Nathan](https://github.com/verygenericname) and [DuyKhanhTran](https://github.com/khanhduytran0) for the exploit\n\n[POEditorJoin]: https://poeditor.com/join/project/MPZOsunwVj\n[PosterRestoreDiscord]: https://discord.gg/gWtzTVhMvh\n[dootskyreX]: https://x.com/dootskyre\n",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.lemin.Pocket-Poster.png",
-            "versions": [
-                {
-                    "version": "3.0",
-                    "date": "2025-08-29T21:35:36Z",
-                    "localizedDescription": "# Features\r\n- Added an in-app explore page for finding and downloading wallpapers\r\n- Added custom CarPlay wallpapers (will not work on iOS 26.0)\r\n- *Preliminary* iOS 16 support (not all wallpapers will work)\r\n- Improved certain error messages\r\n\r\n# Bug Fixes\r\n- Fixed the aspect ratio/rotation of imported custom videos\r\n- Fixed the update API not being called correctly\r\n- Fixed issues with some alerts not popping up\r\n- Other various app stability improvements",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v3.0/Pocket_Poster.ipa",
-                    "size": 13686800
-                },
-                {
-                    "version": "2.0.2",
-                    "date": "2025-07-14T19:56:32Z",
-                    "localizedDescription": "- Changed how the app hash is gotten (Requires [Nugget v6.1.1 or newer](https://github.com/leminlimez/Nugget/releases/latest))\r\n- Pocket Poster now prompts when there is an update available\r\n- Reset Collections button now falls back to the tutorial screen from v1.0 on iOS 17.0\r\n- Added new languages:\r\n  - Bulgarian\r\n  - Chinese (simplified)\r\n  - French (LU)\r\n  - Italian",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.2/Pocket_Poster.ipa",
-                    "size": 13551473
-                },
-                {
-                    "version": "2.0.1",
-                    "date": "2025-06-30T01:52:10Z",
-                    "localizedDescription": "- Fixed a bug where the app hash would be pasted incorrectly",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0.1/Pocket.Poster.ipa",
-                    "size": 13531471
-                },
-                {
-                    "version": "2.0",
-                    "date": "2025-06-23T17:30:12Z",
-                    "localizedDescription": "This version is outdated, you can find the latest version [here](https://github.com/leminlimez/Pocket-Poster/releases/latest).\r\n\r\n# Features\r\n- Added video wallpapers! Select videos from your camera roll and use them as wallpapers.\r\n- The \"Reset Collections\" button now works automatically\r\n- Added translations for 21 new languages!\r\n  - Available languages: Arabic, Arabic (Saudi Arabia), Arabic (Egypt), Chinese (Traditional), Czech, Dutch, French, French (Belgium), French (Canada), French (Switzerland), German, Hungarian, Japanese, Korean, Polish, Russian, Spanish, Spanish (Mexico), Thai, Turkish, Vietnamese\r\n  - Thank you to all the amazing translators who helped make this project more accessible! This would not have been possible without you!\r\n  - If you would like to help translate, you can join the effort over on [POEditor](https://poeditor.com/join/project/MPZOsunwVj)\r\n- Improved the UI\r\n- Prepared for CarPlay hash (coming in v3.0)\r\n\r\n# Bug Fixes\r\n- Improved backend handling of the app\r\n- Fixed problems with alert popups not showing\r\n- Improved error messages\r\n- Improved cache clean up\r\n- Fixed memory leak when applying that would lead to a crash",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v2.0/Pocket.Poster.ipa",
-                    "size": 13530628
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-06-08T16:14:08Z",
-                    "localizedDescription": "- Initial Release\r\n  - Only .tendies files are currently supported. Configuration-based tendies will not work, however those are rare.\r\n\r\n**Note:** You will need [Nugget v5.2.3 or newer](https://github.com/leminlimez/Nugget) to get the app hash.",
-                    "downloadURL": "https://github.com/leminlimez/Pocket-Poster/releases/download/v1.0/Pocket_Poster.ipa",
-                    "size": 13385000
-                }
-            ]
-        },
-        {
-            "name": "Get More Ram",
-            "bundleIdentifier": "com.stos.Entitlement",
-            "developerName": "hugeBlack",
-            "subtitle": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
-            "localizedDescription": "# Get More Ram\nA simple [StosSign](https://github.com/stossy11/StosSign) wrapper app that allows you to enable \"Increased Memory Limit\" for your sideloaded apps without using Xcode.\n\n# How to use\n1. Sideload this app\n2. Go to settings, sign in your account that you used to sign the app you want to enable \"Increased Memory Limit\"\n3. Go to \"App IDs\" page\n4. Tap Refresh\n5. Tap the app you want to enable \"Increased Memory Limit\"\n6. Tap \"Add Increased Memory Limit\"\n7. Reinstall the app from SideStore/AltStore\n8. Check if you have \"Increased Memory Limit\"\n\n# Credits\nStossy11 - For StosSign.\nSideStore -\u00a0Anisette Data fetching codes are stolen from SideStore\n",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png",
-            "versions": [
-                {
-                    "version": "nightly",
-                    "date": "2025-03-31T04:27:11Z",
-                    "localizedDescription": "This is a nightly release [created automatically with GitHub Actions workflow](https://github.com/hugeBlack/GetMoreRam/actions/runs/14164044325/attempts/1).",
-                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
-                    "size": 2613093
-                }
-            ]
-        },
-        {
-            "name": "Reddit Filter",
-            "bundleIdentifier": "com.reddit.Reddit",
-            "developerName": "level3tjg",
-            "subtitle": "iOS Tweak - Filter out unwanted content from your Reddit feed",
+            "name": "Audiobookshelf",
+            "bundleIdentifier": "com.advplyr.audiobookshelf-app",
+            "developerName": "advplyr",
+            "subtitle": "Mobile application for Audiobookshelf",
             "localizedDescription": "404: Not Found",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.reddit.Reddit.png",
+            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.advplyr.audiobookshelf-app.png",
             "versions": [
                 {
-                    "version": "2025.37.0-1.1.8",
-                    "date": "2025-09-26T09:29:45Z",
-                    "localizedDescription": "# RedditFilter v2025.37.0-1.1.8\r\n\r\n## Changes\r\n\r\n- Fix app crash (@NicholasBly)\r\n- Fix ad comments showing under posts (@Laitinlok)\r\n- Fix popular feed not showing with recommendations disabled\r\n- Move RedditFilter settings to the user drawer / side bar (accessed by tapping the profile picture in the top right)\r\n\r\n## SHA256\r\n\r\n- `1e33615cc37168e84256fd6c487a77cf8b11fe187532daf7331b707b664c07e3`  packages/RedditFilter_2025.37.0-1.1.8.ipa\r\n- `1aabd2f0656e6ec4b26fa38f4b5e10bb2d4465c0c6e087e3d57da57a06799f83`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm.deb\r\n- `e871f455aa868a25a7ea1fd40ef3b19a7a7ade21aa4162e0b26d94dab9f31c12`  packages/com.level3tjg.redditfilter_1.1.8_iphoneos-arm64.deb",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.37.0-1.1.8/RedditFilter_2025.37.0-1.1.8.ipa",
-                    "size": 137114565
+                    "version": "0.11.0-beta",
+                    "date": "2025-11-24T14:45:09Z",
+                    "localizedDescription": "#### Important: New authentication system was added in [v2.26.0](https://github.com/advplyr/audiobookshelf/releases/tag/v2.26.0). See https://github.com/advplyr/audiobookshelf/discussions/4460 for details.\r\n\r\n### Added\r\n\r\n- Epub e-reader font setting #1373 by @weilBaum9 in #1688\r\n- **(iOS)** Logs page by @clayreimann in #1679\r\n\r\n### Fixed\r\n\r\n- Unable to remove unreachable servers #1703\r\n- Pressing disconnect while the audio player is open causes sync issue #1385\r\n- **(Android)** Unable to control volume from device when casting #584 by @eagleeyetom #1730\r\n\r\n### Updated\r\n\r\n- UI/UX: Show duration in audio player chapters modal (in #1685)\r\n- UI/UX: Show duration in chapters table on books page #1163 by @sir-wilhelm in #1683\r\n- UI/UX: Don't require listening today for 'Days in a row' stat by @jamerst in #1732\r\n- UI/UX: Removed logo shown on server connect page while loading (misaligned when keyboard is open)\r\n- **(iOS)** UI/UX: Increase e-reader toolbar padding\r\n- **(Android)** Allow widget on Samsung cover screens by @mfulgo in #1666\r\n- More strings translated\r\n  - Belarusian by @i-Nosferatu-i\r\n  - Croatian by @milotype\r\n  - Czech by @petr-prikryl @kuci-JK\r\n  - Danish by @Andersborrits\r\n  - Estonian by @alehandro112\r\n  - Finnish by @pHamala @phewi\r\n  - German by @B0rax\r\n  - Hungarian by @Kabika82\r\n  - Italian by @burghy86\r\n  - Persian by @aghorbanmehr\r\n  - Polish by @satanowski @ahetek @pryszczoskor\r\n  - Portuguese (Brazil) by @jhonthan @pmangro @nlqog @ljaksys\r\n  - Slovak by @pecer\r\n  - Swedish by @3nm1\r\n  - Turkish by @smilefate\r\n\r\n### Internal\r\n\r\n- initial fastlane structures from IzzyOnDroid by @IzzySoft in #1647\r\n\r\n## New Contributors\r\n* @IzzySoft made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1647\r\n* @mfulgo made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1666\r\n* @sir-wilhelm made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1683\r\n* @clayreimann made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1679\r\n* @weilBaum9 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1688\r\n* @jamerst made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1732\r\n* @eagleeyetom made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1730\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.10.1-beta...v0.11.0-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.11.0-beta/Audiobookshelf.ipa",
+                    "size": 9339289
                 },
                 {
-                    "version": "2025.07.1-1.1.7",
-                    "date": "2025-02-27T14:16:51Z",
-                    "localizedDescription": "# RedditFilter v2025.07.1-1.1.7\r\n\r\n## Changes\r\n\r\n- Fixed feed filter settings not appearing in app settings\r\n- Fixed missing feed filter settings icon\r\n- Fixed some recommendations still showing up in the home feed",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2025.07.1-1.1.7/RedditFilter_2025.07.1-1.1.7.ipa",
-                    "size": 139065345
+                    "version": "0.10.1-beta",
+                    "date": "2025-09-04T14:02:43Z",
+                    "localizedDescription": "#### Important: New authentication system was added in server [v2.26.0](https://github.com/advplyr/audiobookshelf/releases/tag/v2.26.0). See https://github.com/advplyr/audiobookshelf/discussions/4460 for details.\r\n\r\n### Fixed\r\n\r\n- OIDC button not showing on re-login #1634 #1638\r\n- OIDC re-login showing config already exists error #1634 #1638\r\n- **(Android)** Android auto high battery usage #1446 by @laurisvr in #1675\r\n- **(Android)** HLS transcode requests uses the wrong endpoint #1635 (in #1636)\r\n- **(iOS)** Refresh token not persisted on new server connections #1634\r\n- UI/UX: RSS feed modal not showing the full RSS feed URL after opening #1652\r\n\r\n### Updated\r\n\r\n- More strings translated\r\n  - Belarusian by @i-Nosferatu-i\r\n  - Bulgarian by @jeliozver\r\n  - Chinese (Simplified Han script) by @FiendFEARing\r\n  - Czech by @vachekcz @kuci-JK\r\n  - Danish by @MikkelOlesen\r\n  - Dutch by @RemcoSchrijver @matieke\r\n  - Estonian by @alehandro112\r\n  - German by @numerfolt @B0rax @LaurinSorgend\r\n  - Hindi by @ashishwadekar\r\n  - Hungarian by @ugyes\r\n  - Italian by @paolor72\r\n  - Norwegian Bokm\u00e5l by @Erbros\r\n  - Romanian by @Hnatiucb\r\n  - Russian by @Nab0y @renesat\r\n  - Slovenian by @thehijacker\r\n  - Spanish by @idojius86\r\n  - Swedish by @MageSneaky @Cotignac\r\n  - Turkish by @icutehunter\r\n  - Vietnamese by @phamngocminhhang\r\n\r\n## New Contributors\r\n* @laurisvr made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1675\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.10.0-beta...v0.10.1-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.10.1-beta/Audiobookshelf.ipa",
+                    "size": 9315715
                 },
                 {
-                    "version": "2024.44.2-1.1.6",
-                    "date": "2024-11-04T23:02:42Z",
-                    "localizedDescription": "# RedditFilter v2024.44.2-1.1.6\r\n\r\n## Changes\r\n\r\n- Fixed \"Incorrect username or password\" error when logging in with correct username and password",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.44.2-1.1.6/RedditFilter_2024.44.2-1.1.6.ipa",
-                    "size": 155673791
+                    "version": "0.10.0-beta",
+                    "date": "2025-07-21T13:38:24Z",
+                    "localizedDescription": "#### Important: New authentication system was added in server [v2.26.0](https://github.com/advplyr/audiobookshelf/releases/tag/v2.26.0). See https://github.com/advplyr/audiobookshelf/discussions/4460 for details.\r\n\r\n### Added\r\n\r\n- Support new authentication system with automatic token refresh (See https://github.com/advplyr/audiobookshelf/discussions/4460) (in #1618)\r\n- Explicit library filter for book & podcast libraries\r\n- UI/UX: Play button on book library list view #1616 (in #1622)\r\n- UI/UX: Black/OLED theme by @NickSkier in #1608\r\n\r\n### Fixed\r\n\r\n- **(Android)** Local cover images not showing in Android Auto #1565\r\n- **(Android)** UI/UX: System bars overlapping #1564 #1574 (in #1582)\r\n\r\n### Updated\r\n\r\n- Podcast latest page shows 50 episodes (previously 25) #1615\r\n- UI/UX: Create bookmark doesn't auto focus the input anymore (in #1612)\r\n- UI/UX: Add shadow to progress bar for visibility #1576\r\n- UI/UX: Show abridged indicator next to title on books page #1477 (in #1584)\r\n- API: Direct play uses the new server endpoint added in https://github.com/advplyr/audiobookshelf/pull/4263 (in #1618)\r\n- **(Android)** Android auto performance improvement for \"Continue\" tab by @golinski in #1577\r\n- More strings translated\r\n  - Arabic by @UsamaFoad\r\n  - Catalan by @fitojb\r\n  - Chinese (Simplified Han script) by @springsunx @FiendFEARing\r\n  - Croatian by @biuklija\r\n  - Czech by @kuci-JK @Plazec @petr-prikryl\r\n  - Danish by @DavidMunch @Strit\r\n  - Dutch by @rekentek @matieke @DavevanIersel\r\n  - Finnish by @SUPERHAMSTERI\r\n  - German by @johes00 @Dalabad @B0rax @Eragos @Vito0912 @networksecurityvodoo\r\n  - Hungarian by @Kabika82 @ugyes\r\n  - Italian by @burghy86\r\n  - Norwegian Bokm\u00e5l by @dvc05 @anorm\r\n  - Russian by @stokito @thatguy7 @GrakovNe\r\n  - Slovak by @pecer\r\n  - Slovenian by @thehijacker\r\n  - Spanish by @fitojb\r\n  - Swedish by @Landrash @stolpee\r\n  - Ukrainian by @Maksim2005UA @buzzik @Maksim2005UA2\r\n\r\n### Internal\r\n\r\n- Templates updates by @nichwall in #1562\r\n- Add: settings for gradle project in subfolder by @nichwall in #1561\r\n\r\n## New Contributors\r\n* @golinski made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1577\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.81-beta...v0.10.0-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.10.0-beta/Audiobookshelf.ipa",
+                    "size": 9297970
                 },
                 {
-                    "version": "2024.26.0-1.1.6",
-                    "date": "2024-06-26T19:34:52Z",
-                    "localizedDescription": "# RedditFilter v2024.26.0-1.1.6\r\n\r\n## Changes\r\n\r\n- Fixed a crash occurring during some web requests\r\n- Fixed NSFW icon not appearing in feed filter settings",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.26.0-1.1.6/RedditFilter_2024.26.0-1.1.6.ipa",
-                    "size": 126529082
+                    "version": "0.9.81-beta",
+                    "date": "2025-04-26T15:05:54Z",
+                    "localizedDescription": "### Added\r\n- **(Android)** Sleep timer setting for playing a chime when timer is 30 seconds from expiring (off by default) #600 in #1555\r\n\r\n### Fixed\r\n- UI/UX: Invisible series numbers on book cards in light mode #1549\r\n- **(Android)** Data not loading on app launch #1550\r\n- **(Android)** Local media cover images not showing in notification player #1493\r\n- **(Android)** Crash when downloading from a server with gzip compression #1553 by @Zibbp in #1556\r\n\r\n### Updated\r\n- Library dropdown now shows when socket is not connected #1494\r\n- **(Android)** Increased sensitivity of the sleep timer shake to reset for Medium, High and Very High in #1555\r\n- More strings translated\r\n  - Chinese (Simplified Han script) by @springsunx\r\n  - Croatian by @biuklija\r\n  - German by @cebo29\r\n  - Hungarian by @Kabika82\r\n  - Russian by @GrakovNe @NickSkier\r\n  - Slovenian by @thehijacker\r\n  - Ukrainian by @Maksim2005UA\r\n\r\n## New Contributors\r\n* @Zibbp made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1556\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.80-beta...v0.9.81-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.81-beta/Audiobookshelf.ipa",
+                    "size": 9237243
                 },
                 {
-                    "version": "2024.18.0-1.1.5",
-                    "date": "2024-05-04T01:31:09Z",
-                    "localizedDescription": "# RedditFilter v2024.18.0-1.1.5\r\n\r\n## Changes\r\n- Updated Reddit app to 2024.18.0\r\n- Fixed issues when logging in using username and password\r\n- Fixed awards toggle image not appearing ",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.18.0-1.1.5/RedditFilter_2024.18.0-1.1.5.ipa",
-                    "size": 118009474
+                    "version": "0.9.80-beta",
+                    "date": "2025-04-20T23:32:23Z",
+                    "localizedDescription": "### Added\r\n- Epub ereader \"Black\" theme option #960 by @NickSkier in #1507\r\n- Podcast episode sort by filename option #1522\r\n- **(Android)** Logs page with options for sharing logs #1546\r\n- **(iOS)** Sleep timer setting for fading out audio before pause #831 by @complacentsee in #1508\r\n- **(iOS)** Auto-rewind with disable auto rewind playback setting #1447 by @complacentsee in #1512\r\n\r\n### Fixed\r\n- UI/UX: Download location modal unreadable in light mode #1504\r\n- **(iOS)** Unable to seek back after media finishes #452 by @complacentsee in #1514 #1523\r\n\r\n### Updated\r\n- UI/UX: Comic reader bottom page number bar now shows when top bar is showing #1485\r\n- UI/UX: Bookshelf grid view sets item card width better for small screens #1540\r\n- UI/UX: Replace material icons with material symbols by @nichwall in #1529\r\n- **(Android)** UI/UX: Update cast icons by @nichwall in #1475\r\n- **(Android)** UI/UX: Add description of local folder to local media page #1472 by @nichwall in #1473\r\n- **(Android)** Remove \"local only\" media and all related code by @nichwall in #1471\r\n- More strings translated\r\n  - Belarusian by @i-Nosferatu-i\r\n  - Bulgarian by @ivan-penchev\r\n  - Catalan by @fitojb @markstor\r\n  - Chinese (Simplified Han script) by @springsunx\r\n  - Croatian by @biuklija @milotype\r\n  - Czech by @petr-prikryl\r\n  - Danish by @MorellReng @Andersborrits\r\n  - Finnish by @Ricky-Tigg @phewi\r\n  - German by @skridofly @peterlang-p @schoenfeldj @confusedalex @Cramcon\r\n  - Hindi by @prashant-mhatre\r\n  - Hungarian by @ugyes\r\n  - Italian by @burghy86 @fitojb\r\n  - Japanese by @acidRain-burns @Xeratone\r\n  - Polish by @mraczka\r\n  - Portuguese (Brazil) by @alghostzx\r\n  - Slovenian by @thehijacker\r\n  - Spanish by @fitojb\r\n  - Swedish by @Cotignac @Krissse10 @Landrash\r\n  - Turkish by @armanckeser\r\n  - Ukrainian by @Maksim2005UA\r\n\r\n### Internal\r\n- Update to Capacitor 7 & android target SDK to 35\r\n- Add: workflow to close issues without template by @nichwall in #1460\r\n- Build apk workflow update by @nichwall in #1461\r\n- Andriod DeviceManager.kt cleanup by @nichwall in #1462 #1468\r\n- Android Sleep Timer cleanup part 2 by @nichwall in #1464\r\n- Download manager cleanup by @nichwall in #1469\r\n- Fix: validation and strings for options for bug_report template by @nichwall in #1502\r\n\r\n## New Contributors\r\n* @NickSkier made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1507\r\n* @complacentsee made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1508\r\n* @4ch1m made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1522\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.79-beta...v0.9.80-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.80-beta/Audiobookshelf.ipa",
+                    "size": 9306988
                 },
                 {
-                    "version": "2024.17.0-1.1.4",
-                    "date": "2024-04-24T05:46:48Z",
-                    "localizedDescription": "# RedditFilter v2024.17.0-1.1.4\r\n\r\n## Changes\r\n\r\n- Updated Reddit app to 2024.17.0\r\n- Fix promoted content showing in News and Popular feeds\r\n- Remove version spoof code added in 1.1.2",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.17.0-1.1.4/RedditFilter_2024.17.0-1.1.4.ipa",
-                    "size": 116196230
+                    "version": "0.9.79-beta",
+                    "date": "2025-01-27T16:22:59Z",
+                    "localizedDescription": "### Fixed\r\n- Playing audiobook from collection uses local media if available\r\n- UI/UX: Cover images now show for servers older than v2.17.0\r\n- **(Android)** Crash when downloading media using server older than v2.17.0 #1450\r\n- **(Android)** Android Auto functions being requested when not using android auto #1446\r\n- **(Android)** End of Chapter Sleep Timer not respecting playback speed #1399 by @nichwall in #1453\r\n- **(Android)** Auto Sleep Timer starting outside of time window #1268 by @nichwall in #1453\r\n\r\n### Updated\r\n- UI/UX: Missing items show missing indicator on cover and on item page\r\n- UI/UX: Playlists/collections play button shows pause when item is playing #1394\r\n- UI/UX: Podcast episodes default sort order is based on podcast type (`serial` is pub date ascending) by @anstosa in #1455\r\n- UI/UX: Support rich text descriptions (coming in next server release) #1281\r\n- **(Android)** Disabling Auto Sleep Timer now only disables for that day #1200 by @nichwall in #1453\r\n- More strings translated\r\n  - Chinese (Simplified Han script) by @springsunx\r\n  - Croatian by @biuklija @milotype\r\n  - Czech by @Losicek\r\n  - Danish by @ZombieSmurf @MorellReng\r\n  - German by @Vito0912 @RaHoni @TheBinaryLoop @akynr\r\n  - Hungarian by @ugyes\r\n  - Norwegian Bokm\u00e5l by @PSchaug\r\n  - Slovenian by @thehijacker\r\n  - Spanish by @nothingbutlucas\r\n  - Swedish by @Cotignac\r\n\r\n## New Contributors\r\n* @anstosa made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1455\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.78-beta...v0.9.79-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.79-beta/Audiobookshelf.ipa",
+                    "size": 9196480
                 },
                 {
-                    "version": "2024.12.0-1.1.3",
-                    "date": "2024-03-29T20:31:10Z",
-                    "localizedDescription": "# RedditFilter 2024.12.0-1.1.3\r\n\r\n## Changes\r\n- Fix promoted content still showing in comments",
-                    "downloadURL": "https://github.com/level3tjg/RedditFilter/releases/download/v2024.12.0-1.1.3/RedditFilter_2024.12.0-1.1.3.ipa",
-                    "size": 114612031
+                    "version": "0.9.78-beta",
+                    "date": "2025-01-19T18:21:44Z",
+                    "localizedDescription": "### Requires server v2.17.0 and up for images to load\r\n\r\n### Added\r\n- Epub ereader setting to allow volume keys to navigate while playing #1365 by @RaHoni in #1383\r\n- Epub ereader setting to keep screen awake #1207\r\n- Bengali and Slovenian language options\r\n- Catalan language option by @jaumet in #1407\r\n- **(Android)** Better Android Auto library browsing #1204 by @ISO-B in #1322\r\n\r\n### Fixed\r\n- UI/UX: Epub ereader settings overflow not scrollable #1374\r\n\r\n### Updated\r\n- UI/UX: Podcast items show num episodes incomplete in library tab\r\n- UI/UX: Create bookmark auto focuses input and selects placeholder text\r\n- UI/UX: Bookmark timestamps are relative to playback speed #1148\r\n- UI/UX: Bookmark create button is sticky to the bottom of modal #1413\r\n- UI/UX: Show warning message for server connections using old user id #1411\r\n- UI/UX: Format numbers w/ localization #1427\r\n- UI/UX: Sync error icon on audio player cover image shows alert message on tap #1396\r\n- Support subdirectory in server address (coming soon in server) by @mikiher in #1417\r\n- More strings localized #1375\r\n- **(Android)** Downloads request raw cover image (for best quality) #1328\r\n- Strings translated\r\n  - Arabic by @Terminal-Grasshopper\r\n  - Belarusian by @i-Nosferatu-i\r\n  - Bengali by @soaibsafi\r\n  - Bulgarian by @i-Nosferatu-i\r\n  - Catalan by @martinezpenya\r\n  - Chinese (Simplified Han script) by @springsunx @Tamanegii\r\n  - Chinese (Traditional Han script) by @Tamanegii\r\n  - Croatian by @biuklija @milotype\r\n  - Czech by @vachekcz @Plazec\r\n  - Danish by @WiredMic\r\n  - Dutch by @matieke\r\n  - French by @isogashiiman\r\n  - German by @Vito0912\r\n  - Hebrew by @mnavon\r\n  - Hungarian by @ugyes\r\n  - Italian by @burghy86\r\n  - Lithuanian by @pranelio\r\n  - Portuguese (Brazil) by @paulohenriquesg\r\n  - Russian by @Nab0y\r\n  - Slovenian by @thehijacker\r\n  - Spanish by @gallegonovato\r\n  - Swedish by @Cotignac\r\n\r\n### Internal\r\n- Update to Capacitor 6\r\n\r\n## New Contributors\r\n* @jaumet made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1407\r\n* @mikiher made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1417\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.77-beta...v0.9.78-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.78-beta/Audiobookshelf.ipa",
+                    "size": 9190062
+                },
+                {
+                    "version": "0.9.77-beta",
+                    "date": "2024-11-06T11:10:43Z",
+                    "localizedDescription": "### Added\r\n- Option to download entire series from series page by @ISO-B in #1272\r\n- Epub ereader setting to navigate with volume keys by @RaHoni in #1302\r\n\r\n### Fixed\r\n- Unable to connect when using local server with no internet connection #566 by @ISO-B in #1359 #1360\r\n- **(Android)** Crash when playing local downloads that no longer exist on device #105 by @ISO-B in #1358\r\n- **(Android)** Unable to delete local downloads that no longer exist on device\r\n- **(Android)** Android auto cover image not showing for downloaded media #141 by @Sp4rky001 in #1303\r\n- **(Android)** Crash when switching server while audio player is open #1336\r\n\r\n### Updated\r\n- **(Android)** split groups of play history items that have different status results by @faush01 in #1257\r\n\r\n### Updated\r\n- Strings translated\r\n  - Bengali by @soaibsafi\r\n  - Chinese (Simplified) by @springsunx\r\n  - Croatian by @biuklija @milotype\r\n  - Czech by @kuci-JK\r\n  - Dutch by @matieke\r\n  - Finnish by @vilikng\r\n  - French by @ChristianWia @Fymyte\r\n  - German by @JBlond @Vito0912 @valenbar @alexanderkuenzel\r\n  - Hungarian by @megamegax @nagyfrankie\r\n  - Lithuanian by @petras-sukys\r\n  - Polish by @ahetek @Akasiek @RafalHo\r\n  - Russian by @Nab0y\r\n  - Swedish by @Landrash @derdydancer\r\n  - Ukrainian by @cor-bee\r\n\r\n### Internal\r\n- Weblate translation strings cleanup by @nichwall in #1305\r\n\r\n\r\n## New Contributors\r\n* @faush01 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1257\r\n* @Sp4rky001 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1303\r\n* @RaHoni made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1302\r\n* @ISO-B made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1272\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.76-beta...v0.9.77-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.78-beta/Audiobookshelf.ipa",
+                    "size": 9190062
+                },
+                {
+                    "version": "0.9.76-beta",
+                    "date": "2024-08-13T21:37:24Z",
+                    "localizedDescription": "### Added\r\n- Random library sort option #1285\r\n\r\n### Fixed\r\n- **(Android)** Crash on starting stream\r\n\r\n### Updated\r\n- Strings translated\r\n  - Swedish by @Landrash\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/f405947...8bc5932",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.76-beta/Audiobookshelf.ipa",
+                    "size": 8976480
+                },
+                {
+                    "version": "0.9.75-beta",
+                    "date": "2024-08-13T21:31:14Z",
+                    "localizedDescription": "### Added\r\n- Settings to limit downloading and streaming on cellular data by @mfcar in #1210\r\n- Epub ereader setting for Font boldness by @BimBimSalaBim in #1222\r\n- Play episode button from downloads page context menu by @mfcar in #1235\r\n- Finnish language option\r\n- **(iOS)** Support for detecting network metered status by @mfcar in #1217\r\n\r\n### Fixed\r\n- Play podcast episode on latest page not playing local\r\n- Sleep timer modal defaults to Custom Time during first access #1224\r\n- Server connect form not submitting on enter key #1158\r\n- UI/UX: PDF ereader flickering\r\n- UI/UX: Epub ereader resize on orientation change #1213\r\n\r\n### Updated\r\n- UI/UX: Podcast episode descriptions create links for timestamps by @mfcar in #1208\r\n- UI/UX: Show audio file sizes for downloaded media (will only work for downloads after this update) by @mfcar in #1235\r\n- Strings translated\r\n  - Croatian by @Smoukus @Sara492\r\n  - Czech by @plazec @kuci-JK\r\n  - Danish by @nightgolfer\r\n  - Dutch by @lodesmets\r\n  - Finnish by @spetke @phewi\r\n  - French by @Fymyte\r\n  - German by @Dalabad @lukasitaly @Vito0912 @JBlond @valenbar\r\n  - Italian by @burghy86\r\n  - Lithuanian by @petras-sukys\r\n  - Polish by @ahetek @mcnpl\r\n  - Portugeuse (Brazil) by @pmangro\r\n  - Russian by @Nab0y\r\n  - Simplified Chinese by @springsunx\r\n  - Spanish by @c-franco @diamondtipdr @apineiro97\r\n  - Ukraniain by @cor-bee\r\n\r\n### Internal\r\n- Github workflow for i18n strings by @nichwall #1234\r\n- Github workflow to automatically close issues on release by @nichwall in #1279\r\n\r\n## New Contributors\r\n* @mfcar made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1208\r\n* @Dalabad made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1215\r\n* @c-franco made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1221\r\n* @lukasitaly made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1225\r\n* @weblate made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1228\r\n* @BimBimSalaBim made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1222\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.74-beta...fd550c1",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.76-beta/Audiobookshelf.ipa",
+                    "size": 8976480
+                },
+                {
+                    "version": "0.9.74-beta",
+                    "date": "2024-05-20T14:41:52Z",
+                    "localizedDescription": "### Added\r\n- Links to web client on item pages and side nav by @nichwall in #1079\r\n- \"No Series\" filter for book libraries #1184\r\n- Explicit indicator next to titles #1181\r\n- Ukrainian translations by @cor-bee in #1136\r\n- Vietnamese translations by @nichwall in #1127\r\n\r\n### Fixed\r\n- Remove from playlist in context menu #987\r\n- UI/UX: Closing sleep timer modal when custom timer sub modal is open #1112\r\n- UI/UX: Podcast library playlists page shows incorrect label in toolbar #1135\r\n- **(Android)** Client version passed in listening sessions\r\n- **(Android)** Cover image in notification being resized #657\r\n- **(iOS)** Certain headphones can't pause when playback speed is above 1x #1177 by @indiefan in #1178\r\n- **(iOS)** Pause not working after updating settings #1141 by @indiefan in #1205\r\n\r\n### Updated\r\n- Include 1.7x playback speed in modal #1180\r\n- Support for comic files with webp images\r\n- **(iOS)** Refactor AudioPlayer to use a Rate Manager protocol by @indiefan in #1179\r\n- Strings translated\r\n  - Vietnamese by @nichwall in #1127\r\n  - Ukrainian by @cor-bee in #1136 #1140 #1206\r\n  - Portuguese (Brazil) by @pmangro in #1139 #1160\r\n  - Italian by @burghy86 in #1153\r\n  - Simplified Chinese by @springsunx in #1162\r\n  - French by @Fymyte in #1176\r\n\r\n### Internal\r\n- Github workflow for i18n strings by @nichwall in #1142 #1174\r\n- Github issue templates by @nichwall in #1199 #1201\r\n- Readme: Translation guide link added by @nichwall in #1150\r\n\r\n## New Contributors\r\n* @nichwall made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1127\r\n* @cor-bee made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1136\r\n* @springsunx made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1162\r\n* @Fymyte made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1176\r\n* @indiefan made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1178\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.73-beta...v0.9.74-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.74-beta/Audiobookshelf.ipa",
+                    "size": 8959544
+                },
+                {
+                    "version": "0.9.73-beta",
+                    "date": "2024-03-03T22:32:22Z",
+                    "localizedDescription": "### Added\r\n- Setting to enable/disable seeking on media notification controls #526 by @fidoriel in #1094\r\n- Remove from playlist option in context menu of media items on playlist page #987\r\n- Portuguese (Brazil) translations by @pmangro in #1095\r\n- Hungarian translations by @megamegax in #1109\r\n\r\n### Fixed\r\n- Local media item page long titles overflowing screen pushing play & more menu button offscreen #1103\r\n- Swiping with modal open minimizes/expands audio player #1099\r\n- Progress bar overflowing edge of screen on orientation changes\r\n- Playlist tab not shown after adding first playlist #1092\r\n- **(Android)** Android auto not connecting to server, only showing downloads #1081\r\n\r\n### Updated\r\n- Seeking in media notification controls is disabled by default\r\n- Strings translated\r\n  - Czech by @arcao in #1082\r\n  - Hungarian by @megamegax in #1109\r\n  - Portuguese (Brazil) by @pmangro in #1095 #1106\r\n\r\n## New Contributors\r\n* @arcao made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1082\r\n* @pmangro made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1095\r\n* @fidoriel made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1094\r\n* @megamegax made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1109\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.72-beta...v0.9.73-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.73-beta/Audiobookshelf.ipa",
+                    "size": 8947698
+                },
+                {
+                    "version": "0.9.72-beta",
+                    "date": "2024-02-11T14:51:16Z",
+                    "localizedDescription": "### Added\r\n- Player setting to toggle scaling elapsed time by playback speed #1028\r\n\r\n### Fixed\r\n- Continue listening shelves for local media not being shown on first connection attempt #1038\r\n- Settings page toggle touch area #1021\r\n- No response when clicking on media item after losing server connection\r\n- Library list still showing in app bar with no network connection\r\n- Device info not being reported for fully offline listening sessions\r\n- **(iOS)** Reporting 0 second listening sessions #970\r\n- **(Android)** Crash on startup due to SimpleStorage #1040\r\n- **(Android)** Still sending server sync requests when in offline mode (after pressing \"Disconnect\")\r\n\r\n### Updated\r\n- Audio player title scrolls when text overflows #740\r\n- Minimized player shows title and current chapter title #740\r\n- Swiping down anywhere on fullscreen audio player closes it #1046\r\n- Swiping up on minimized audio player opens it #1046\r\n- Authors page cards size increased to show 2 per row #1026\r\n- **(iOS)** After app is suspended audio is not resumed (fix attempt for #973)\r\n- Strings translated\r\n  - German by @bloodscript in #1052\r\n  - Italian by @burghy86 in #1032\r\n  - Polish by @Bogumio in #1042 #1049\r\n\r\n## New Contributors\r\n* @Bogumio made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1042\r\n* @bloodscript made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1052\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.71-beta...v0.9.72-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.72-beta/Audiobookshelf.ipa",
+                    "size": 9229844
+                },
+                {
+                    "version": "0.9.71-beta",
+                    "date": "2024-01-02T13:40:07Z",
+                    "localizedDescription": "### Added\r\n- Year in review stats images to user stats page (Requires server v2.7.1+)\r\n- Epub ereader setting to use single page layout for tablets #1018\r\n- Tags to item page #1014\r\n\r\n### Fixed\r\n- Spacing for comma separated links on items page #1020\r\n- Library list view long titles causing overflow #1013\r\n- Download indicator overlapping series sequence on book covers #996\r\n- Filter dialog clear button overflowing notch #999\r\n- **(iOS)** Play/pause with specific headphones/speakers #622 by @benonymity @KaiStarkk in #1005 #1016\r\n- **(iOS)** (partial fix) Swipe back in fullscreen audio player by @benonymity in #1003\r\n\r\n### Updated\r\n- Comma separated links on item page can wrap to multiple lines\r\n- Background color gradient on item page to absolute position\r\n- **(iOS)** Now playing widget respects chapter track setting in audio player #239 @ronaldheft @benonymity in #1002\r\n- **(iOS)** Status bar changes color to match the full screen audio player background by @benonymity in #1004\r\n- Strings translated\r\n  - German by @Hallo951 in #991\r\n  - Simplified Chinese by @Jafeyyu in #997 #1007\r\n\r\n## New Contributors\r\n* @KaiStarkk made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/1016\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.69-beta...v0.9.71-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.71-beta/Audiobookshelf.ipa",
+                    "size": 9180757
+                },
+                {
+                    "version": "0.9.70-beta",
+                    "date": "2023-12-19T14:22:49Z",
+                    "localizedDescription": "### Fixed\r\n- Play button stuck loading for locally downloaded books when offline #990",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.70-beta/Audiobookshelf.ipa",
+                    "size": 9180757
+                },
+                {
+                    "version": "0.9.69-beta",
+                    "date": "2023-12-19T14:20:54Z",
+                    "localizedDescription": "### Added\r\n- Language setting #448\r\n- Theme setting with light theme #916\r\n- Book library ebook filters #971\r\n\r\n### Fixed\r\n- Syncing while media is paused in the audio player but playing on another device #984\r\n- Persisted playback speed not being set until after initial server connection attempt #976\r\n- Podcast latest page not indicating downloaded episodes\r\n- **(iOS)** Podcast episode downloads not showing downloading indicator\r\n- **(iOS)** Crash when pressing download button multiple times rapidly\r\n- **(iOS)** Playback skipping parts of track #686 by @Sapd in #964\r\n\r\n### Updated\r\n- Padding increased on the top and bottom of the playlist and RSS feed modals (iOS notch cutoff)\r\n- Loading indicator is shown on play buttons after pressing and before audio player opens\r\n- Chapter numbers are not shown infront of chapter title in chapters modal (to match web client) #981\r\n- Remove download success toasts, confirm episode download prompt and linked to server message on downloaded items #966 by @tonyedwardspz in #967\r\n- SSO: Add redirect_uri to oAuth auth request by @Sapd in #969 (Related https://github.com/advplyr/audiobookshelf/pull/2386)\r\n- Strings translated\r\n  - German by @JannikGohr @Hallo951 in #972 #986\r\n  - Simplified Chinese by @Jafeyyu in #975\r\n  - Russian by @Nab0y in #983\r\n  - Italian by @burghy86 in #988\r\n\r\n## New Contributors\r\n* @JannikGohr made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/972\r\n* @Jafeyyu made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/975\r\n* @tonyedwardspz made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/967\r\n* @Nab0y made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/983\r\n* @Hallo951 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/986\r\n* @burghy86 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/988\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.68-beta...v0.9.69-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.70-beta/Audiobookshelf.ipa",
+                    "size": 9180757
+                },
+                {
+                    "version": "0.9.68-beta",
+                    "date": "2023-11-27T14:36:32Z",
+                    "localizedDescription": "### Added\r\n- Podcast episode filter for downloaded episodes\r\n- **(Android)** Monochrome app icon #786\r\n\r\n### Fixed\r\n- Redirecting to server item copy from local copy when there is no network connection #958\r\n- Opening local item that was downloaded on server v2.2.23 or earlier but are now on a more recent server version #953\r\n- Downloaded item alert for user mismatch when server connection is storing an old user id #945\r\n- Podcast page more menu button not working when at least 1 episode is downloaded\r\n- OIDC login button (for upcoming server release)\r\n- **(Android)** Android auto unable to play podcast episodes #832\r\n\r\n### Updated\r\n- Navigating to podcast from the local podcast home page shelf will auto filter by downloaded episodes #958\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.67-beta...v0.9.68-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.68-beta/Audiobookshelf.ipa",
+                    "size": 8996243
+                },
+                {
+                    "version": "0.9.67-beta",
+                    "date": "2023-11-18T16:03:04Z",
+                    "localizedDescription": "### Added\r\n- Support for oauth2 (preparing for upcoming server release) by @Sapd in #906\r\n- Send ebook to device #909\r\n- Tags shown in search results #940\r\n\r\n### Fixed\r\n- 404 when clicking on collapsed series item in list view #877\r\n- Series page sorting by name #925\r\n- **(iOS)** Sleep timer stopping after player interaction #477 by @atoghyani in #887\r\n- **(iOS)** Progress not being saved for downloads #825\r\n- **(Android)** Downloading finished media item not being marked as finished #903\r\n- **(Android)** Seeking in notification player resetting progress #894\r\n\r\n### Updated\r\n- Server connection form: Server address no longer requires protocol & improved error messaging by @Sapd in #906\r\n- Library item page for local downloads shows alerts if the current connected server does not match\r\n- Podcast search page renamed to \"Add\" #936\r\n- Bookmarks modal is no longer closed after updating/deleting #882\r\n- Playlist table row items include progress bar & more context menu #914\r\n- Collection table does not show duration for ebooks\r\n- Making native http requests instead of webview fetch requests to resolve CORS issues #781\r\n- Server connect page shows message to new users that an Audiobookshelf server is required #912\r\n- **(iOS)** Sync local sessions using new sync all api endpoint (fixes https://github.com/advplyr/audiobookshelf/issues/2294)\r\n- **(iOS)** Removed background task syncing with server when media is paused\r\n- **(Android)** Removed scanning options for local downloads and ffmpegkit dependency\r\n\r\n## New Contributors\r\n* @Sapd made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/906\r\n* @atoghyani made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/887\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.66-beta...v0.9.67-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.67-beta/Audiobookshelf.ipa",
+                    "size": 8996023
+                },
+                {
+                    "version": "0.9.66-beta",
+                    "date": "2023-09-17T21:29:02Z",
+                    "localizedDescription": "### Added\r\n- .ipa for sideloading on iOS (included in release assets) #837\r\n\r\n### Fixed\r\n- Comma separated lists space before comma #777 by @casrou in #813\r\n- Separator between authors by @lkiesow in #851\r\n- Comic reader incorrect file sort order when file number is more than 5-digits\r\n- Progress lost when app is in background for extended period #828\r\n- Clicking title on fullscreen audio player redirects to item page but doesnt change library #803\r\n- Epub ereader incorrect line-height on titles causing overlap #874\r\n- Epub ereader swiping sometimes moving 2 pages (partial fix) #802\r\n- **(Android)** Sync server progress to local progress #808\r\n- **(Android)** Internal storage downloads triggering multiple times #791\r\n- **(Android)** Offline playback sessions continuing to sync creating duplicates on the server\r\n- **(Android)** Android auto loading podcast episodes #832\r\n- **(Android)** Mp3 index seeking setting not persisting #638\r\n\r\n### Updated\r\n- Making native http requests instead of webview fetch requests to resolve CORS issues #781\r\n- Initial server connection no longer blocks app usage\r\n- Podcast covers show number of episodes incomplete instead of total episodes #315\r\n- Local sessions are synced on network reconnections\r\n- Add \"Switch Server/User\" button in side drawer and account page #628\r\n- Renamed \"Logout\" to \"Disconnect\" in side drawer (does not redirect, just goes in offline-mode) #628\r\n- Epub ereader shows location in the bottom left #766\r\n- Bookmarks modal UI/UX #876\r\n- **(iOS)** Removed lock orientation setting because it's not supported on iOS webview\r\n- **(Android)** Android auto includes explicit indicator #611\r\n\r\n## New Contributors\r\n* @casrou made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/813\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.65-beta...v0.9.66-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.65-beta",
+                    "date": "2023-06-25T19:36:37Z",
+                    "localizedDescription": "### Requires server version [v2.2.23](https://github.com/advplyr/audiobookshelf/releases/tag/v2.2.23) and up for full functionality\r\n\r\n### Added\r\n- Saving progress for PDF ebooks #712\r\n- Saving progress for comic ebooks #738\r\n- Ebook files table on item page and supplementary ereader\r\n- Epub ereader table of contents and settings (font size, spacing, theme) #745\r\n- Open/close RSS feeds for library items\r\n- Support downloaded podcast episode chapters #675\r\n- Delete local media item from book/episode page #690\r\n- **(iOS)** Ebook downloads and offline reading #496\r\n- **(Android)** Option to store downloads to internal storage (new default) #635\r\n- **(Android)** Device setting to use mp3 index seeking #638\r\n\r\n### Fixed\r\n- Playlist items play using downloaded local copy if available #734\r\n- Back button closes ebook #709\r\n- Persist \"Total Track\" option in audio player #663\r\n- Add new podcast form cutoff by open player #750\r\n- **(Android)** App widget updating #658\r\n- **(Android)** Playback speed not persisting #532\r\n- **(Android)** Android auto to not show ebook only books\r\n- **(Android)** Remove local sessions after sync\r\n- **(Android)** Local sessions include device info\r\n- **(iOS)** Keeping/syncing progress for downloaded podcast episodes #719\r\n\r\n### Updated\r\n- Syncing playback time when media item is open but playing from another device\r\n- Increase touch size for audio player seekbar cursor #713\r\n- Connecting to server on initialization does not block local item access #708\r\n- Save last scroll position for item pages #717\r\n- Ebook and downloads using new API (Requires server v2.2.23 and up)\r\n- Scale chapter times with playback rate #726\r\n- Show ebook file on local media page\r\n- Removed toast when marking item as finished #718\r\n- Ereader UI/UX updates for fullscreen #731 #752\r\n- Playlist and chapters modal UI improvements\r\n- Cleaned up UI color inconsistencies #723\r\n- **(Android)** Target SDK to 33\r\n- **(Android)** Remove stop button from notification\r\n- **(iOS)** Deleting downloaded item redirects to downloads page\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.64-beta...v0.9.65-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.64-beta",
+                    "date": "2023-05-22T00:53:22Z",
+                    "localizedDescription": "### Added\r\n- Saving progress for Epub ebooks #243\r\n- Play button on playlist & collection table items #666\r\n- Narrators in search results\r\n- Podcast episode table sort options #376\r\n- Series progress to series items #410\r\n- **(Android)** EBook downloads and offline reading #187\r\n- **(Android)** Sleep timer setting to auto-rewind after restarting an auto-sleep timer #623 by @HStep20 in #692\r\n\r\n### Fixed\r\n- Center play button when locking ui #624\r\n- HarmonyOS crash #480\r\n- Discarding progress for downloaded media #646\r\n- **(Android)** Reset volume when shake to reset sleep timer #626\r\n- **(Android)** Auto sleep timer start/end time window #648\r\n- **(Android)** Out of memory causing fallback to transcode #227 by @maltejur in #649\r\n- **(Android)** Desktop widget not updating #658\r\n- **(Android)** Removing progress check when pressing play that was causing delayed seeking\r\n- **(Android)** Sleep timer getting set to time remaining #659\r\n- **(Android)** Delete empty author folder when removing item #701\r\n- **(iOS)** Transcoding\r\n\r\n### Updated\r\n- Play buttons on item pages show Play/Pause instead of disabled and showing Playing/Streaming #697\r\n- Podcast episodes show episode number, season, type and support html description #677\r\n- Use raw cover on library item page #634\r\n- Audio player play method visibility #706\r\n- Podcast episodes on home page do not show an episode number if it is not set (matches web)\r\n- **(Android)** Download raw cover image #634\r\n- **(Android)** Remove auto-open most recent listened item (fixes #532)\r\n\r\n## New Contributors\r\n* @maltejur made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/649\r\n* @HStep20 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/692\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.63-beta...v0.9.64-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.63-beta",
+                    "date": "2023-03-07T19:49:49Z",
+                    "localizedDescription": "### Added\r\n- Tracks & chapters table on audiobook page #394 #399\r\n- Authors page #618\r\n- Collapse series and collapse sub-series settings #99\r\n- Separate podcast episode page & remove description from episode lists #588\r\n- **(Android)** Home Screen Widget #307 by @KeyboardHammer in #597\r\n\r\n### Fixed\r\n- Show episode title on home page shelves #616\r\n- Refresh bookshelf on screen orientation change #602\r\n- Initialize haptic feedback with setting on launch #603\r\n- Filtering/sorting in library after clicking an author card #607\r\n- Podcast latest page refresh/redirect on library change\r\n- **(Android)** Local podcast episodes saved with wrong duration\r\n- **(Android)** Cancel sleep timer resetting volume #605\r\n- **(Android)** Local library item page items cut-off by audio player #592\r\n- **(Android)** Playback rate set on initial load #532\r\n- **(iOS)** Downloaded podcast episode duration, playback session title\r\n- **(iOS)** Downloading books with CD subfolders #620\r\n- **(iOS)** Epub Reader freezing UI\r\n\r\n### Updated\r\n- EReader padding and UI cleanup\r\n- Library item page UI updates by @lkiesow in #571\r\n- Audio player track requires dragging cursor to seek #457\r\n- Audio player track padding to prevent triggering swipe to navigate\r\n- Audio player and tracks rounded corners\r\n- Increased padding on modals\r\n- Show raw cover image in audio player #614\r\n- Library item size moved to more info modal\r\n- Remove padding above cover image on item page\r\n- **(iOS)** Disable touch callout and user selection\r\n\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.62-beta...v0.9.63-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.62-beta",
+                    "date": "2023-02-19T22:56:41Z",
+                    "localizedDescription": "### Added\r\n- **(Android)** Sleep timer setting to disable audio fade out #320\r\n- **(Android)** Sleep timer setting to disable vibrate on reset #552\r\n- **(Android)** Android auto playback speed button #333 by @KeyboardHammer in #554\r\n- **(Android)** APK for most recent commit available (https://advplyr.github.io/audiobookshelf-app/) by @lkiesow in #577 #581\r\n\r\n### Fixed\r\n- Back button closing modals and fullscreen player #535\r\n- UI alignment of recent sessions list #587\r\n- **(iOS)** Disable ATS (allowing external connections over http) #538 by @emmertex in #568\r\n- **(iOS)** Downloads crash & showing progress #537\r\n- **(iOS)** Fallback to transcoding on failed direct play #553\r\n- **(iOS)** Unstable seeking #518 by @jramer in #565\r\n- **(Android)** Play/Pause events from bluetooth/lockscreen being ignored #429 #427 #573\r\n- **(Android)** After download UI freezing with multi-file audiobooks #550\r\n- **(Android)** Offline listening sessions synced with server #381\r\n- **(Android)** Sync failures after restarting playback sessions\r\n- **(Android)** Incorrect play times showing in play history\r\n- **(Android)** Re-scanning local folders removing/unlinking downloads #589\r\n- **(Android)** Downloads with capital M4B/M4A file extensions\r\n\r\n### Updated\r\n- Show loading indicator when initially connecting to server\r\n- Minor UI updates by @lkiesow in #533 #534 #560 #561 #562 #563 #572 #576\r\n- Increase height of minimized audio player #531\r\n- Adjust current playback time with playback speed #549\r\n- Discard progress moved to more menu on audiobook page by @lkiesow in #559\r\n- Item page blurred image background is full width by @lkiesow in #569\r\n- Remove Gentium Book Basic font\r\n- **(Android)** Most recent listening media auto opened when app is launched by @lkiesow in #574\r\n- **(Android)** Cancelling sleep timer when auto-enabled will disable the setting with alert #545\r\n- **(Android)** Download 3 files at a time #567\r\n- **(Android)** Foreground service updates\r\n\r\n\r\n## New Contributors\r\n* @KeyboardHammer made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/554\r\n* @emmertex made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/568\r\n* @jramer made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/565\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.61-beta...v0.9.62-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.61-beta",
+                    "date": "2023-01-31T03:00:46Z",
+                    "localizedDescription": "### Added\r\n- Option to toggle off total track in audio player by @lkiesow in #514\r\n- Continue listening shelf for offline books & episodes #112\r\n- **(Android)** Haptic feedback setting\r\n- **(Android)** Media item history page for audiobooks\r\n- **(Android)** Currently downloading page by clicking icon in app bar\r\n- **(Android)** Auto sleep timer #260 (See: https://github.com/advplyr/audiobookshelf-app/issues/260#issuecomment-1407752168)\r\n\r\n### Fixed\r\n- Item page details table alignment by @lkiesow in #499\r\n- Library list view cover size #474\r\n- Collapsed player cover for 1.6:1 aspect ratio image #474\r\n- Show play button playing on local and server item pages #487\r\n- Lock orientation setting clicking on toggle button #465\r\n- Add new podcast button covered up by open audio player #502\r\n- Clearing filter refreshes library\r\n- **(Android)** Android auto play downloaded media if available #385\r\n- **(iOS)** Realm DB writes fixing crash #471 and helps battery usage #476 by @benonymity in #519\r\n- **(iOS)** Playing audiobooks that are in subfolders (e.g. CD folders) #483\r\n\r\n### Updated\r\n- Audio player fullscreen move tracks above buttons #408 #418\r\n- Audio player and item page use cover image primary color background gradient\r\n- Podcast latest page shows cover & podcast name #529\r\n- Search page input is clearable #509\r\n- Numerate chapters in chapters modal by @lkiesow in #493\r\n- Increase cover image size in audio player and item page\r\n- Changing library triggers redirect on pages not available for that library\r\n- Show confirm dialog when marking item as finished that has progress\r\n- Increase max playback speed to 10x\r\n- Underline links on library item page\r\n- Default to use alt view and flip setting to use bookshelf view\r\n- **(Android)** Sleep timer shake to reset & pressing play resets anytime while running #260 (See: https://github.com/advplyr/audiobookshelf-app/issues/260#issuecomment-1407752168)\r\n- **(Android)** Sleep timer starts fading out when 60 seconds remaining #320\r\n- **(Android)** Download notifications get removed #495\r\n- **(Android)** Book downloads go in author/title subfolders #194\r\n- **(Android)** Accurate download percentage uses bytes #523\r\n- **(iOS)** Next/prev track events will jump forward/backward by @blampe in #528\r\n\r\n## New Contributors\r\n* @lkiesow made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/493\r\n* @blampe made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/528\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.60-beta...v0.9.61-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.60-beta",
+                    "date": "2022-12-11T23:21:55Z",
+                    "localizedDescription": "### Added\r\n- Playlists\r\n- Podcast latest page\r\n- Orientation lock setting #449\r\n- E-Reader support for PDF #420\r\n- Podcast search page for adding new podcasts to server (for admin users) #225\r\n- Adding/deleting podcast episodes from server (for admin users) #225\r\n- Haptic feedback for action buttons by @benonymity in #459\r\n- Sync local media progress button on local media page\r\n\r\n### Fixed\r\n- E-Reader for e-books in library folder root\r\n- E-Reader getting cut off when player is open #442\r\n- Save track order button hidden when player is open\r\n- Library filter by progress #451\r\n- Bookmarks shown for downloaded books when connected to server #163\r\n- Chapters modal overflowing text #460\r\n- Changing device orientation updates player track\r\n- **(Android)** Android Auto downloaded cover images #141\r\n- **(Android)** Changing track sort order\r\n- **(Android)** Attempts to seek to invalid times in track\r\n- **(iOS)** Very large listening time getting sent to the server by @benonymity in #456\r\n- **(iOS)** Don't allow scrolling out of bounds vertically by @benonymity in #455\r\n\r\n### Updated\r\n- Prevent selecting text by @benonymity in #458\r\n- Home page local shelves shown at the bottom\r\n  - When connected to a server only the local shelf matching the library media type is shown\r\n- Item page & audio player UI\r\n- **(Android)** Android Auto play next podcast episode after finishing one\r\n- **(Android)** Lock screen show title/subtitle #431\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.59-beta...v0.9.60-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.59-beta",
+                    "date": "2022-11-05T21:57:14Z",
+                    "localizedDescription": "### Fixed\r\n- **(iOS)** various iOS app startup issues (by @ronaldheft in #386)\r\n- **(iOS)** iOS 16 Realm crash (by @ronaldheft in #387)\r\n- **(iOS)** use local cover images #373 (by @ronaldheft in #389)\r\n- **(iOS)** inconsistent seek back time #368 (by @ronaldheft in #390)\r\n- **(iOS)** chapter sleep timer issues #367 (by @ronaldheft in #392)\r\n- **(iOS)** player sometimes pausing during seek #354 (by @ronaldheft in #391)\r\n- Comic reader (see https://github.com/advplyr/audiobookshelf/issues/811) and improvements\r\n\r\n### Updated\r\n- **(Android)** Android Auto skip forward/backward buttons cleaned up (by @vangorra in #365)\r\n- **(Android)** Status & navigationbar colors to match app colors (by @wnhrt in #413)\r\n- Support for new library icons added in server [v2.2.2](https://github.com/advplyr/audiobookshelf/releases/tag/v2.2.2)\r\n- Cover aspect ratio used from library settings",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.58-beta",
+                    "date": "2022-09-03T22:08:00Z",
+                    "localizedDescription": "### ** iOS only release **\r\n\r\n### Fixed\r\n- **(iOS)** Playback sessions would track the time the app is closed as time listened by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/338\r\n- **(iOS)** Books with multiple files would not save progress beyond the first file of the book by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/339\r\n- **(iOS)** Handle audio events (pause for audio interruptions, etc) by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/361\r\n- **(iOS)** Player seek issues with multi-track books by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/355\r\n- **(iOS)** Rewrite sleep timer to handle multi-track files by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/359\r\n- **(iOS)** Marking local book as read crashing iOS app by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/362\r\n- **(iOS)** Catching errors before crashing\r\n\r\n### Changed\r\n- **(iOS)** Downloads will continue in the background when switching apps by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/347\r\n- **(iOS)** Downloads will pause and retry with poor network conditions by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/347\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.57-beta...v0.9.58-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.57-beta",
+                    "date": "2022-08-27T22:30:34Z",
+                    "localizedDescription": "### Added\r\n- **(iOS)** Downloads  / Improved Progress Syncing by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/277\r\n- **(iOS)** Downloads page by @benonymity in https://github.com/advplyr/audiobookshelf-app/pull/329\r\n- **(Android)** Android Auto jump forward/backward buttons (Issue #79) by @vangorra in https://github.com/advplyr/audiobookshelf-app/pull/328\r\n- Set manual sleep timer time by @jakob42 in https://github.com/advplyr/audiobookshelf-app/pull/322\r\n- Lock/unlock the audio player #313\r\n- Sort book library by published year\r\n\r\n### Fixed\r\n- **(iOS)** Remote control player respects jump forward/back time from settings by @ronaldheft in https://github.com/advplyr/audiobookshelf-app/pull/335\r\n- **(iOS)** Audio player UI in landscape mode\r\n- Downloaded episodes played from home screen was streaming from server #324\r\n\r\n### Updated\r\n- **(Android)** Android Auto shows items in progress for ALL libraries #285 (Requires server v2.1.4 and up)\r\n- Book collection entire row item is clickable #305\r\n- Changing library while on item page redirects to home page\r\n\r\n## New Contributors\r\n* @ronaldheft made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/277\r\n* @vangorra made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/328\r\n* @jakob42 made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/322\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.56-beta...v0.9.57-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.56-beta",
+                    "date": "2022-08-12T00:24:30Z",
+                    "localizedDescription": "### Added\r\n- User stats page #206 by @benonymity in https://github.com/advplyr/audiobookshelf-app/pull/308\r\n- Play next episode button on podcast page #139\r\n- Filter by language #312\r\n- Subtitle on book item page\r\n- **(Android)** Setting to disable shake to reset sleep timer #298 #169\r\n\r\n### Fixed\r\n- **(iOS)** Sleep timer chapter end #291\r\n- **(Android)** Remove limit on home page local media shelves #301\r\n- **(Android)** Casting closing audio player #314\r\n- **(Android)** Stopping cast reverts progress #314\r\n- **(Android)** Android auto library items mixing with other libraries #309\r\n- **(Android)** Catching multiple different exceptions before they crash the app\r\n- Collections table book count #306\r\n- Home page podcast episode progress bars #264\r\n\r\n### Changed\r\n- **(Android)** Sort local books to show unfinished first #302\r\n- **(Android)** Android auto show progress bar\r\n- Show series sequence before title\r\n- Collections page show total duration #303\r\n- Default podcast episode sort to pubDate descending\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.55-beta...v0.9.56-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
+                },
+                {
+                    "version": "0.9.55-beta",
+                    "date": "2022-07-29T00:53:38Z",
+                    "localizedDescription": "### Added\r\n - Device setting to use alternative bookshelf view #113 by @samblooms in https://github.com/advplyr/audiobookshelf-app/pull/299\r\n\r\n### Fixed\r\n- **(Android)** Media progress sync resetting progress on close playback\r\n- **(Android)** Media progress sync sending huge listening time\r\n- **(Android)** Load local media progress on app launch before server conn attempt\r\n- **(iOS)** Sending multiple progress sync requests at the same time\r\n- Set server settings and server version on authorize\r\n\r\n## New Contributors\r\n* @samblooms made their first contribution in https://github.com/advplyr/audiobookshelf-app/pull/299\r\n\r\n**Full Changelog**: https://github.com/advplyr/audiobookshelf-app/compare/v0.9.54-beta...v0.9.55-beta",
+                    "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+                    "size": 8962052
                 }
             ]
-        },
-        {
-            "name": "Ksign",
-            "bundleIdentifier": "nya.asami.ksign",
-            "developerName": "Nyasami",
-            "subtitle": "The \"cleaner\" Esign app.",
-            "localizedDescription": "\n<img src=\"https://github.com/user-attachments/assets/986892f9-c32f-448d-a24e-ba8659203fbf\" height=\"200\">\n\n# Ksign \n[![GitHub Release](https://img.shields.io/github/v/release/nyasami/ksign?style=for-the-badge&color=3c94fc)](https://github.com/nyasami/ksign/releases/latest) \n[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/nyasami/ksign/total?style=for-the-badge&color=6bc563)](https://github.com/nyasami/ksign/releases)\n\nYet another codesigning app, have you ever wondered what if Feather and Esign had a child?\n\n## Why?\nSince Esign is end of service so people been moving to other signing apps, but Esign was a really big part of the community, so with the help of Feather as the base app, I tried to recreate Esign as close as possible so you guys can easier to get familiar and less app switching for smooth sideloading.\n\nAnother reason is this app was built specifically for Khoindvn to share his certificates, allowing more people to access to sideloading without even have to buy a certificate!\n\n## Help\nYou can create your Issue at [Issue](https://github.com/Nyasami/Ksign-public/issues), this will also be the place for you to request a new feature so feel free to make one!\n\nYou can also join Ksign Discord [here](https://discord.gg/sfbZfQzVdQ) for better communication.\n\n## Download\nGo to [Releases](https://github.com/Nyasami/Ksign-public/releases) and download the newest ipa from there.\n\n## Star History\n\n<a href=\"https://www.star-history.com/#Nyasami/Ksign-public&Timeline\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Nyasami/Ksign-public&type=Timeline&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Nyasami/Ksign-public&type=Timeline\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Nyasami/Ksign-public&type=Timeline\" />\n </picture>\n</a>\n\n## Special thanks\n- Feather by [khcrysalis](https://github.com/khcrysalis/Feather)  \n\n- Product manager Khoindvn\n\n- And you! for using the app \u2764\ufe0f\n\n## Disclaimer\n\nThis project is maintained here, on GitHub. Releases are distributed here, on GitHub. We do not currently have a project website outside of this repository. Please make sure to avoid any sites that host our software as they are often malicious and are there to mislead to user.\n",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/nya.asami.ksign.png",
-            "versions": [
-                {
-                    "version": "1.5",
-                    "date": "2025-10-11T20:16:06Z",
-                    "localizedDescription": "Hawwo everywan! The next big update is here, thank you for all your feature request!\r\n\r\n## What's Changed\r\n* Bulk Signing (select multiple apps and click on the sign icon)\r\n* Ksign can be run in background now finally! (helpful with downloading ipas and installing them) \r\n* Logs tab so you can see what's going on under the hood!\r\n* Added experiments signing option from Feather\r\n* Reset cache and storage in reset tab\r\n* Ability to bundle default certificate with app\r\n* Ability to edit text files and make a new one in file manager\r\n* A few small UI changes\r\n##\r\n> [!TIP]\r\n> If you ever wanted to bundle a certificate with Ksign, you can unpack Ksign and adding certificate with example directory tree (with cert.txt is certificate password in plain text):\r\n> ```ts\r\n> Ksign.app\r\n> |__ signing-assets\r\n>      |__ example\r\n>          |__ cert.p12\r\n>          |__ cert.mobileprovision\r\n>          |__ cert.txt\r\n>      |__ example2\r\n>          |__ cert.p12\r\n>          |__ cert.mobileprovision\r\n>          |__ cert.txt\r\n> ```\r\n> Bundle a certificate cannot be easier as Ksign already has all the tools you need!\r\n##\r\n**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.4.1...v1.5",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.5/Ksign.ipa",
-                    "size": 14045394
-                },
-                {
-                    "version": "1.4.1",
-                    "date": "2025-08-20T01:31:25Z",
-                    "localizedDescription": "Hallo everywan! small update and a new app icon!\r\n\r\n<img height=\"200\" alt=\"ksign\" src=\"https://github.com/user-attachments/assets/35307033-77bf-49d8-b9f1-0c1b04a6046d\" />\r\n\r\n## What's Changed\r\n* New default app icon! This one can adapt to Dark Mode and Tint and way more cleaner than old one\r\n* A new zip extractor `ZIPFoundation`, you can choose to use this in app's Archive & Extraction settings if importing IPA doesnt work on Zip\r\n* Plist Editor just got even better!\r\n* Context menu for file manager is back and even better! (the hold on a file row menu)\r\n* Edit toolbar is now on top right so ios 26 tabbar doesnt hid it\r\n* Move/Export option is now use system picker instead\r\n* A few UI changes\r\n\r\n\r\n**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.4...v1.4.1",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.4.1/Ksign.ipa",
-                    "size": 14008140
-                },
-                {
-                    "version": "1.4",
-                    "date": "2025-08-04T07:00:19Z",
-                    "localizedDescription": "Hallo everywan! A new update yay, a few big changes:\r\n## What's Changed\r\n- Click on **.ksign** files will **import to app automatically**\r\n- Apps in App Store tab now has a **detailed view**\r\n- Added **only modify** option, you can find this in signing properties\r\n- Added **revoke** check in certificates\r\n- Cleaned up and fixed some UI inconsistency in File Manager on ipads\r\n- Added **Liquid Glass** appearance\r\n- Avoid the **Signing Failed** error upon signing a few apps\r\n- Cleaned up a bit UI\r\n\r\n> Also Ksign now has a AltStore repo, you can import the repo to any services supported AltSource at\r\n> https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/repo.json\r\n\r\n**Full Changelog**: https://github.com/Nyasami/Ksign/compare/v1.3.2...v1.4\r\n## Preview\r\n<img height=\"700\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4f857d67-2710-4202-be7f-0ca611ba25e7\" />",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.4/Ksign.ipa",
-                    "size": 17579941
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2025-07-12T17:35:25Z",
-                    "localizedDescription": "Hello everyone, a new update no way! What's new in this version:\r\n\r\n## What's Changed\r\n* Adjust 'Show Dylibs' to include injected dylibs located in the .app directory by @brynts in https://github.com/Nyasami/Ksign-public/pull/27\r\n* Added selection in Library tab for bulk deletion\r\n* Fixed on automatically adding Tweaks in Tweaks folder\r\n## New Contributors\r\n* @brynts made their first contribution in https://github.com/Nyasami/Ksign-public/pull/27\r\n\r\n**Full Changelog**: https://github.com/Nyasami/Ksign-public/compare/v1.3.1...v1.3.2",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3.2/Ksign.ipa",
-                    "size": 14686478
-                },
-                {
-                    "version": "1.3.1",
-                    "date": "2025-06-30T15:30:11Z",
-                    "localizedDescription": "_Hello_ everyone, finally done with my finals hopefully i can pass it all, also here comes v1.3.1\r\nwhat's new in this version:\r\n- Added Delete after install feature - you can enable this in signing options\r\n- Add a new small icon under every app to indicate which repo it was from\r\n- Remake the Downloader\r\n- Added back the UI tint color customization\r\n- Added back option to change app icon\r\n- Updated Zsign to properly fix the unable to verify app integrity without replace the framework (thank you khcrysalis!)\r\n- Clean up a bit UI\r\n\r\nNothing much from v1.3, happy sideloading!",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3.1/Ksign.ipa",
-                    "size": 14807486
-                },
-                {
-                    "version": "1.3",
-                    "date": "2025-06-17T18:16:48Z",
-                    "localizedDescription": "It's been a long time, what's new in this version:\r\n- FIxed the **Unable to install** apps bug (Unable to verify integrity)\r\n- Brought back the **Tweaks** folder which was removed in v1.2 - you can find this in App folder\r\n- New File importing method to Files tab which is now instant for any file sizes\r\n- Fixed issue when using IPA downloader would freeze at 100% \r\n- Fixed the bug that caused incorrect bundle identifier install with Sign & Install function\r\n- .ksign files are now works across any Ksign bundle\r\n- **Higher Encryption** on .ksign files\r\n\r\nThat's all, hopefully you guys can sideload more smoothly on this version, happy sideloading!",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.3/Ksign.ipa",
-                    "size": 10765213
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2025-05-28T10:40:43Z",
-                    "localizedDescription": "just a small update from the previous version which has no affect in particularly (hopefully)",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.2.1/Ksign.ipa",
-                    "size": 10660181
-                },
-                {
-                    "version": "1.2.0",
-                    "date": "2025-05-26T09:47:32Z",
-                    "localizedDescription": "### Version 1.2.0\r\nThis update fixed all the import bugs and others installing bugs, also adding some new features\r\n<img src=\"https://github.com/user-attachments/assets/94fb9e2a-a9a6-434a-9543-83fab9cc62f1\" height=\"700\">\r\n",
-                    "downloadURL": "https://github.com/Nyasami/Ksign/releases/download/v1.2.0/Ksign.ipa",
-                    "size": 10641633
-                }
-            ]
-        },
-        {
-            "name": "BTLoader (Discord)",
-            "bundleIdentifier": "com.hammerandchisel.discord",
-            "developerName": "CloudySn0w",
-            "subtitle": "\ud83d\udca7 BTLoader! The Future For iOS.",
-            "localizedDescription": "# \ud83d\udca7 BTLoader\n\nTweak to inject [Ra1n](https://github.com/ra1ncord/ra1n) into Discord and perform various tasks.\n\n**We at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.**\n\n## Installation\n\nThe latest builds can be found in the [Releases](https://github.com/CloudySn0w/BTLoader/releases) tab.\n\n## Legacy Of BTLoader\n\nRead about our history here at [The Legacy Of BTLoader](TheLegacyOfBT.md).\n",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.hammerandchisel.discord.png",
-            "versions": [
-                {
-                    "version": "307.2",
-                    "date": "2025-12-05T15:19:27Z",
-                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\n\n## Downloads\n\n- **bound.ipa**: BTLoader with Bound name and icon\n- **discord.ipa**: BTLoader with original Discord name and icon\n- **DEB**: Rootless package for jailbroken devices\n\n## Versions\n\n- Discord: v307.2\n- BTLoader: v1.0.2\n\n## Features\n\n- TrollStore compatibility  \n- Optimized for size and performance\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v307.2/bound.ipa",
-                    "size": 98520566
-                },
-                {
-                    "version": "305.0",
-                    "date": "2025-11-17T22:58:47Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
-                    "size": 99213527
-                },
-                {
-                    "version": "303.0",
-                    "date": "2025-11-03T23:29:45Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
-                    "size": 95698547
-                },
-                {
-                    "version": "301.0",
-                    "date": "2025-10-14T21:32:57Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
-                    "size": 94377178
-                },
-                {
-                    "version": "297.0",
-                    "date": "2025-09-15T19:50:59Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
-                    "size": 93338979
-                },
-                {
-                    "version": "294.0",
-                    "date": "2025-08-26T16:32:50Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
-                    "size": 93827160
-                }
-            ]
-        }
-    ],
-    "news": [
-        {
-            "title": "LiveRedirector Solution for iOS 26!",
-            "identifier": "news_wzotos79y8",
-            "caption": "Fix broken sideloaded Safari extension using Userscripts + Shortcuts",
-            "date": "2025-09-26T11:39:00-07:00",
-            "tintColor": "#04a49c",
-            "url": "https://www.reddit.com/r/sideloaded/comments/1nr93xd/update_liveredirector_on_ios_26/",
-            "appID": "danielthemaniel.DynamicRedirect"
         }
     ]
 }
