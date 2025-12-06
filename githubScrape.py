@@ -3,6 +3,7 @@ import json
 
 myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
+repo_url = "https://raw.githubusercontent.com/nicolaswl/ios-repo/refs/heads/main/scrapedIcons/"
 
 for repo_info in scraping:
     repo = repo_info["github"]
@@ -40,9 +41,9 @@ for repo_info in scraping:
         icon = requests.get(repo_info["iconURL"]).content
         with open("scrapedIcons/" + bundleID + ".png", "wb") as f:
             f.write(icon)
-        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/" + bundleID + ".png"
+        iconURL = repo_url + bundleID + ".png"
     else:
-        iconURL = "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/empty.png"
+        iconURL = repo_url + "empty.png"
 
     app = {
         "name": name,

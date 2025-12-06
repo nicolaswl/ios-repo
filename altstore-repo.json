@@ -11,7 +11,7 @@
             "developerName": "advplyr",
             "subtitle": "Mobile application for Audiobookshelf",
             "localizedDescription": "404: Not Found",
-            "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/IOS-Repo/refs/heads/main/scrapedIcons/com.advplyr.audiobookshelf-app.png",
+            "iconURL": "https://raw.githubusercontent.com/nicolaswl/ios-repo/refs/heads/main/scrapedIcons/com.advplyr.audiobookshelf-app.png",
             "versions": [
                 {
                     "version": "0.11.0-beta",
