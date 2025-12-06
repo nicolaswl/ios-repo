@@ -3,6 +3,6 @@
       "github": "advplyr/audiobookshelf-app",
       "bundleID": "com.advplyr.audiobookshelf-app",
       "name": "Audiobookshelf",
-      "iconURL": "https://github.com/advplyr/audiobookshelf/blob/991d25f6284eea320aa8247080ca72e37bed0419/client/static/ios_icon.png"
+      "iconURL": "https://cdn.jsdelivr.net/gh/advplyr/audiobookshelf@master/client/static/ios_icon.png"
     }
 ]
